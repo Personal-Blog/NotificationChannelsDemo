@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.github.angads25.notificationchannelsdemo.MainActivity">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/channel_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sports"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/channel_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entertainment"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/channel_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Technology"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/channel_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fashion"/>
+
+    <RadioGroup
+        android:id="@+id/channel_settings_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:checkedButton="@id/channel1">
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/channel1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sports Settings" />
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/channel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entertainment Settings"/>
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/channel3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Technology Settings"/>
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/channel4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fashion Settings" />
+
+    </RadioGroup>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/channel_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"/>
+
+</android.support.v7.widget.LinearLayoutCompat>
